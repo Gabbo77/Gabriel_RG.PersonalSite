@@ -3,20 +3,19 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
-locale                   : "Canada"
+locale                   : "en-CA"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Gabriel Ramirez-Garcia - Research Portfolio"
 title_separator          : "-"
-name                     : &name "Gabriel Ramirez-Garcia "
-description              : &description "Personal site"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Gabriel Ramirez-Garcia"
+description              : &description "Neuroimaging research on stroke recovery and neurodegeneration, in human patients and non-human primate models."
+url                      : https://GITHUB-USERNAME.github.io   # <-- REPLACE GITHUB-USERNAME with your GitHub username
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "https://github.com/Gabbo77"   # <-- REPLACE GITHUB-USERNAME
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,23 +24,23 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Gabriel Ramirez-Garcia"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Kinsgton, Ontario, CA"
+  pronouns         : # example: "she/her"
+  bio              : "Postdoctoral fellow in neuroimaging. Multimodal MRI of stroke recovery, brain injury and neurodegeneration in patients and non-human primates."
+  location         : "Kingston, Ontario, Canada"
   employer         : "Queen's University / UNAM"
   uri              : # URL
-  email            : "gabbo_fry@hotmail.com" 
+  email            : "gabriel_77ram@comunidad.unam.mx"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=95xkUm0AAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-6004-5767" # URL - add your full ORCID link, e.g. https://orcid.org/0000-0000-0000-0000
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Ramirez-Garcia+G"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -51,13 +50,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github           : # <-- your GitHub username
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Your Bluesky handle, e.g. gramirez.bsky.social
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -84,10 +83,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
+  preprints:
+    title: 'Preprints and Manuscripts Under Review'
   conferences:
     title: 'Conference Papers'
 
@@ -302,7 +301,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Toronto # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
