@@ -14,8 +14,8 @@ title_separator          : "-"
 name                     : &name "Gabriel Ramirez-Garcia"
 description              : &description "Neuroimaging research on stroke recovery and neurodegeneration, in human patients and non-human primate models."
 url                      : "https://gabbo77.github.io"   # <-- REPLACE GITHUB-USERNAME with your GitHub username
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Gabbo77/gabbo77.github.io"   # <-- REPLACE GITHUB-USERNAME
+baseurl                  : "/Gabriel_RG.PersonalSite" # the subpath of your site, e.g. "/blog"
+repository               : "Gabbo77/Gabriel_RG.PersonalSite"   # <-- REPLACE GITHUB-USERNAME
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
