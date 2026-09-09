@@ -13,7 +13,7 @@ title                    : "Gabriel Ramirez-Garcia - Research Portfolio"
 title_separator          : "-"
 name                     : &name "Gabriel Ramirez-Garcia"
 description              : &description "Neuroimaging research on stroke recovery and neurodegeneration, in human patients and non-human primate models."
-url                      : https://gabbo77.github.io   # <-- REPLACE GITHUB-USERNAME with your GitHub username
+url                      : "https://gabbo77.github.io"   # <-- REPLACE GITHUB-USERNAME with your GitHub username
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Gabbo77"   # <-- REPLACE GITHUB-USERNAME
 
@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Gabriel Ramirez-Garcia"
-  pronouns         : # example: "she/her"
+  pronouns         : "He/him"
   bio              : "Postdoctoral fellow in neuroimaging. Multimodal MRI of stroke recovery, brain injury and neurodegeneration in patients and non-human primates."
   location         : "Kingston, Ontario, Canada"
   employer         : "Queen's University / UNAM"
